@@ -3,3 +3,39 @@ body {
   height: 100%;
   margin: 0;
 }
+#details div {
+
+  float: left;
+  background-color: red;
+  text-align: center;
+  width: 25%;
+
+}
+header {
+  display: flex;
+  flex-direction: column;
+  ALIGN-ITEMS: center;
+
+}
+
+section figure {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+figcaption {
+  font-size: 15px;
+}
+
+nav a {  
+  background-color: rgb(184, 184, 184);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#featured-property p {
+  width: 800px;
+  text-align: center;  margin: auto;
+}
+
